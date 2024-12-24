@@ -1,0 +1,7 @@
+.pages{
+    border-radius: 5px;
+    width: 90vw;
+    height: 40vh; 
+    display: flex;
+    justify-content: center;
+}

@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: alibaba;
+    src: url('/fonts/alibaba-regular.woff2-5d2979c4.woff2');
+}
+
+* {
+    font-family: alibaba;
+}

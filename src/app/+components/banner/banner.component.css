@@ -1,0 +1,21 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bordermenu {
+    margin: auto;
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 12px;
+    width: 70vw;
+    height: 40vh;
+
+}
+.menu{
+    color: rgb(141, 139, 139);
+    align-self:flex-start;
+    padding: 2em;
+    text-decoration: none;
+}
+
