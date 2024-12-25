@@ -1,23 +1,58 @@
 .borderlogo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     border: 1px solid rgb(201, 201, 201);
-    width: 98vw;
+    width: 100vw;
     height: 10vh;
     border-radius: 12px;
 }
 
 nav {
     display: flex;
+
     margin-right: 8vw;
     margin-top: 2.5vh;
 }
 
-.logolast {
-    margin-right: 7vw;
+.menu {
+    display: flex;
+    justify-content: center;
 }
 
+.logolast1 {
+    display: flex;
+    align-items: center;
+
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    
+    color:rgb(214, 197, 197);
+}
+.logolast {
+    margin-right: 3vw;
+    color: black;
+    
+}
+#imgonline{
+    width: 3vw;
+    height: 5vh;
+   
+}
+#imgsuitcase{
+    width: 3vw;
+    height: 5vh;
+   
+}
+#imgprofile{
+    width: 2vw;
+    height: 3vh;
+   
+}
 div img {
     display: flex;
     flex-direction: row;
