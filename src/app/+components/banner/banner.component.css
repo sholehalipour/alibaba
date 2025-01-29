@@ -1,21 +1,110 @@
-div {
+#master {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
 #bordermenu {
+    justify-items: center;
     margin: auto;
     border: 1px solid rgb(165, 163, 163);
-    border-radius: 12px;
-    width: 70vw;
-    height: 40vh;
-
+    border-radius: 10px;
+    width: 90vw;
+    height: 35vh;
 }
-.menu{
+.option {
+    font-size: medium;
+    color: rgb(119, 118, 118);
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 10px;
+    margin: 1em;
+ }
+ #optionkhareji {
+    display:inline-block;
+  
+}
+.menu {
+    display: inline-flex;
     color: rgb(141, 139, 139);
-    align-self:flex-start;
     padding: 2em;
     text-decoration: none;
+    font-weight: bolder;
 }
 
+.menu:hover {
+    color: rgb(54, 54, 250);
+    transition: all 1s;
+}
+
+#option1 {
+    display: flex;
+    justify-content: right;
+    display: block;
+    align-items: self-start;
+    border-top: 1px solid rgb(141, 139, 139);
+    width: 90vw;
+    height:11vh;
+
+}
+
+#option2 {
+    display: flex;
+   
+}
+
+.option {
+    font-size: medium;
+    color: rgb(119, 118, 118);
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 10px;
+    margin: 1em;
+    margin-right: 1em;
+
+
+}
+
+.optioncity {
+    border-style: hidden;
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 6px;
+    color: rgb(119, 118, 118);
+    width: 18vw;
+    height: 6vh;
+    font-size: medium;
+}
+.content {
+    color: black;
+    font-size: small;
+    font-weight: bold;
+}
+.optiondate {
+    font-size: medium;
+    border-style: hidden;
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 6px;
+    color: rgb(119, 118, 118);
+    width: 13vw;
+    height: 6vh;
+}
+
+.optionpassenger {
+
+    border-style: hidden;
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 6px;
+    color: rgb(119, 118, 118);
+    width: 13vw;
+    height: 6vh;
+    margin-right: 1vw;
+}
+
+.search {
+    background-color: rgb(233, 218, 11);
+    border-style: hidden;
+    width: 10vw;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 1px solid rgb(255, 174, 0);
+    margin-right: 1vw;
+}
+.search:hover{
+    background-color: rgb(250, 145, 8);
+    transition: all 1s;
+}

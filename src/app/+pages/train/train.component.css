@@ -5,7 +5,25 @@ div {
 }
 
 img {
+    margin-right: 8vw;
     border-radius: 5px;
     width: 100vw;
     height: 40vh;
+}
+.option {
+    font-size: medium;
+    color: rgb(119, 118, 118);
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 10px;
+    margin: 1em;
+ }
+ .optiontrain{
+    display:inline-block;
+    margin-right: 21em;
+    margin-top: 5.5em; 
+ }
+.content {
+    color: black;
+    font-size: small;
+    font-weight: bold;
 }

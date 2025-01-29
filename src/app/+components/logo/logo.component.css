@@ -3,56 +3,84 @@
     flex-direction: row;
     justify-content: space-around;
     border: 1px solid rgb(201, 201, 201);
-    width: 100vw;
+    width: 99vw;
     height: 10vh;
     border-radius: 12px;
 }
 
 nav {
     display: flex;
+    margin-right: 5vw;
+    /* margin-top: 1vh; */
+}
 
-    margin-right: 8vw;
-    margin-top: 2.5vh;
+ul li {
+    list-style: none;
 }
 
 .menu {
     display: flex;
     justify-content: center;
+
+}
+
+.stylemenu {
+    position: absolute;
+    background-color: rgb(245, 240, 240);
+    border: 1px solid rgb(194, 192, 192);
+    padding: 0.5em;
+    border-radius: 9px;
+    width: 10vw;
+    margin-right: 0.5em;
+    font-size: medium;
+    transition:1s ease-in-out;
+    cursor: pointer;
+
+}
+
+.stylemenu a {
+    color: rgb(138, 137, 137);
+    text-decoration: none;
+    margin: 0.5em;
+    border-bottom: 1px solid rgb(194, 192, 192);
+    display: block;
+    transition: 1s ease-out;
+}
+
+.stylemenu a:hover {
+    color: rgb(240, 121, 9);
+
 }
 
 .logolast1 {
     display: flex;
     align-items: center;
-
-
 }
-a{
+
+a {
     text-decoration: none;
 }
-a:hover{
-    
-    color:rgb(184, 181, 181);
+
+a:hover {
+
+    color: rgb(184, 181, 181);
 }
-.logolast {
-    margin-right: 3vw;
-    color: black;
-    
-}
-#imgonline{
-    width: 3vw;
+
+#imgonline {
+    width: 2.5vw;
     height: 5vh;
-   
 }
-#imgsuitcase{
-    width: 3vw;
-    height: 5vh;
-   
+
+#imgsuitcase {
+    width: 2.5vw;
+    height: 6vh;
 }
-#imgprofile{
-    width: 2vw;
+
+#imgprofile {
+    width: 1.5vw;
     height: 3vh;
-   
 }
+
 div img {
     display: flex;
     flex-direction: row;
@@ -62,61 +90,15 @@ div img {
 }
 
 .menu1 {
-    padding: 1em;
+    padding: 0.5em;
     color: rgb(184, 181, 181);
     font-size: large;
     text-decoration: none;
     box-sizing: border-box;
-
+    cursor: pointer;
+    
 }
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-nav li ul {
-    display: none;
-}
-
-nav>ul li {
-    display: inline-block;
-    position: relative;
-}
-
-nav a:hover {
-    color: rgb(151, 148, 148);
-}
-
-nav>ul ul {
-    display: none;
-}
-
-nav>ul ul li {
-    display: inline-block;
-}
-
-nav a:hover+ul {
-    display: initial;
-    position: absolute;
-    top: 4.2vh;
-    left: 0;
-
-}
-
-nav a:hover+ul>li {
-    display: inline-block;
-}
-
-.submenu {
-    display: inline-block;
-    background-color: rgb(255, 255, 255);
-    border: 0.5px solid rgb(230, 230, 230);
-    border-radius: 7.5px;
-    border-bottom: 2px solid black;
-    width: 10vw;
-    padding: 0.75em;
-    color: rgb(133, 133, 133);
-    font-size: small;
+.menu1:hover{
+    color: rgb(240, 121, 9);
+    transition: 1s ease-in;
 }

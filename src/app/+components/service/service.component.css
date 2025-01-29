@@ -1,0 +1,35 @@
+div {
+    display: flex;
+    margin-right: 4.5vw;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(165, 163, 163);
+    border-radius: 10px;
+    width: 90vw;
+    height: 15vh;
+    font-size: medium;
+
+}
+
+.linkservice {
+
+    border-left: 1px solid rgb(165, 163, 163);
+    width: 10vw;
+    text-decoration: none;
+
+}
+
+.linkservice1 {
+    width: 10vw;
+    text-decoration: none;
+
+}
+
+.img {
+    margin-right: 4vw;
+    width: 8vw;
+    height: 8vh;
+}

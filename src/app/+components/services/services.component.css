@@ -1,0 +1,52 @@
+.borderservices {
+    display: flex;
+    border-right: 1ps solid rgb(201, 201, 201);
+    border-left: 1px solid rgb(201, 201, 201);
+    width: 90vw;
+    height: 35vh;
+    margin: auto;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.img {
+    margin-top: 2vw;
+    margin-left: 0.5vw;
+    width: 35vw;
+    height: 35vh;
+}
+
+.btn {
+    margin-top: 2vw;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    width: 10vw;
+    height: 5vh;
+}
+
+.btn1 {
+    margin-top: 2vw;
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    width: 12vw;
+    height: 5vh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: right;
+}
+
+.h3 {
+    border-bottom: 1px solid rgb(245, 151, 10);
+}

@@ -1,26 +1,30 @@
 <div class="borderlogo">
-
     <div>
         <a><img src="/pictures/logoalibaba.gif"></a>
     </div>
     <div class="menu">
         <nav>
             <ul>
-                <li> <a class="menu1" routerLink="/بلیط">بلیط</a>
-                    <ul>
-                        <li><a class="submenu">پرواز داخلی</a></li>
-                        <li><a class="submenu">پرواز خارجی</a></li>
-                        <li><a class="submenu">اتوبوس</a></li>
-                        <li><a class="submenu">قطار</a></li>
+                <li> <a class="menu1" routerLink="/بلیط" (click)="ticketon()">بلیط</a>
+                    @if(ticket==true){
+                    <ul class="stylemenu">
+                        <li><a>پرواز داخلی</a></li>
+                        <li><a>پرواز خارجی</a></li>
+                        <li><a>اتوبوس</a></li>
+                        <li><a>قطار</a></li>
                     </ul>
+                    }
                 </li>
             </ul>
             <ul>
-                <li> <a class="menu1" routerLink="/offers">اقامت</a>
-                    <ul>
+                <li> <a class="menu1" routerLink="/offers" (click)="eghamaton()">اقامت</a>
+                    @if(eghamat==true)
+                    {
+                    <ul class="stylemenu">
                         <li><a class="submenu">هتل</a></li>
                         <li><a class="submenu">ویلا و اقامتگاه</a></li>
                     </ul>
+                    }
                 </li>
             </ul>
             <ul>
@@ -33,24 +37,29 @@
                 </li>
             </ul>
             <ul>
-                <li> <a class="menu1" routerLink="/بلیط">بیشتر</a>
-                    <ul>
+                <li> <a class="menu1" routerLink="/بلیط" (click)="moreon()">بیشتر</a>
+
+                    @if(more==true){
+
+                    <ul class="stylemenu">
                         <li><a class="submenu">علی بابا پلاس</a></li>
                         <li><a class="submenu">مجله ی علی بابا</a></li>
                         <li><a class="submenu">بیمه مسافرتی</a></li>
                         <li><a class="submenu">سفر اقساطی</a></li>
                     </ul>
+                    }
+
                 </li>
             </ul>
         </nav>
     </div>
     <div class="logolast1">
-        <img  id=imgonline src="/pictures/online.jpg" al="online">
-        <div class="logolast"><a href="">مرکز پشتیبانی انلاین</a></div>
-        <img  id=imgsuitcase src="/pictures/suitcase.jpg" al="online">
-        <div class="logolast"><a href="">سفرهای من</a></div>
-        <img  id=imgprofile src="/pictures/profile.png" al="online">
-        <div class="logolast"><a href="">ورود یا ثبت نام</a></div>
+        <img id=imgonline src="/pictures/online.jpg" al="online">
+        <a href="">مرکز پشتیبانی انلاین</a>
+        <img id=imgsuitcase src="/pictures/suitcase.jpg" al="online">
+        <a href="">سفرهای من</a>
+        <img id=imgprofile src="/pictures/profile.png" al="online">
+        <a href="">ورود یا ثبت نام</a>
     </div>
 
 </div>
